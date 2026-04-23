@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Reveal, StaggerContainer, StaggerItem } from "./motion-wrapper";
 
 const team = [
@@ -62,7 +61,7 @@ export function TeamSection() {
               <StaggerItem key={member.name}>
                 <div className="group relative p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#38BDF8]/15 transition-all duration-300">
                   {/* Avatar */}
-                  <Image
+                  <img
                     src={`https://github.com/${member.github}.png`}
                     alt={member.name}
                     width={56}
@@ -94,7 +93,7 @@ export function TeamSection() {
               <StaggerItem key={member.name}>
                 <div className="group relative p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#38BDF8]/15 transition-all duration-300">
                   {/* Avatar */}
-                  <Image
+                  <img
                     src={`https://github.com/${member.github}.png`}
                     alt={member.name}
                     width={56}

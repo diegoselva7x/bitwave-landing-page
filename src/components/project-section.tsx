@@ -1,7 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import { Reveal, StaggerContainer, StaggerItem } from "./motion-wrapper";
+
+const BASE = process.env.__NEXT_ROUTER_BASEPATH || "";
 
 const features = [
   {
@@ -66,8 +67,8 @@ export function ProjectSection() {
         <Reveal delay={0.1}>
           <div className="mb-8 p-6 sm:p-8 rounded-2xl border border-[#38BDF8]/10 bg-gradient-to-br from-[#38BDF8]/[0.04] to-[#6366F1]/[0.02]">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-6">
-              <Image
-                src="/images/agroadapt-logo.svg"
+              <img
+                src={`${BASE}/images/agroadapt-logo.svg`}
                 alt="AgroAdapt AI"
                 width={56}
                 height={56}

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
+const BASE = process.env.__NEXT_ROUTER_BASEPATH || "";
 
 const navLinks = [
   { label: "Nosotros", href: "#mision" },
@@ -34,8 +34,8 @@ export function Navbar() {
       <div className="mx-auto px-3 sm:px-4 lg:px-6 h-[72px] flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-3 group">
-          <Image
-            src="/images/bitwave-logo-white.png"
+          <img
+            src={`${BASE}/images/bitwave-logo-white.png`}
             alt="Bitwave"
             width={32}
             height={32}

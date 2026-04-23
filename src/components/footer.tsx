@@ -1,7 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import { Reveal } from "./motion-wrapper";
+
+const BASE = process.env.__NEXT_ROUTER_BASEPATH || "";
 
 export function Footer() {
   return (
@@ -40,8 +41,8 @@ export function Footer() {
       <footer className="py-8 border-t border-white/[0.04]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <a href="#" className="flex items-center gap-3">
-            <Image
-              src="/images/bitwave-logo-white.png"
+            <img
+              src={`${BASE}/images/bitwave-logo-white.png`}
               alt="Bitwave"
               width={24}
               height={24}

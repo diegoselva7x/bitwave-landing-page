@@ -51,7 +51,7 @@ const stackItems = [
     items: [
       { name: "Git", url: "https://git-scm.com" },
       { name: "GitHub", url: "https://github.com" },
-      { name: "Pencil AI", url: "https://pencil.li" },
+      { name: "Pencil AI", url: "https://www.pencil.dev/" },
       { name: "Postman", url: "https://www.postman.com" },
     ],
   },

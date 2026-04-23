@@ -3,14 +3,38 @@
 import { motion } from "framer-motion";
 import { Reveal } from "./motion-wrapper";
 
+const BASE = process.env.__NEXT_ROUTER_BASEPATH || "";
+
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-[72px]">
-      {/* Background */}
+      {/* Background image */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
-        <div className="grid-pattern absolute inset-0" />
-        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#38BDF8]/[0.06] blur-[120px]" />
-        <div className="absolute bottom-1/4 left-1/4 w-[400px] h-[400px] rounded-full bg-[#2563EB]/[0.04] blur-[100px]" />
+        <motion.div
+          initial={{ scale: 1.1 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1.8, ease: [0.22, 1, 0.36, 1] }}
+          className="absolute inset-0"
+        >
+          <img
+            src={`${BASE}/images/hero-bg.jpg`}
+            alt=""
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
+        {/* Cyan/teal tint to match sky feel */}
+        <div className="absolute inset-0 bg-[#0C4A6E]/30 mix-blend-overlay" />
+        {/* Dark overlay + bottom fade */}
+        <div className="absolute inset-0 bg-[#050505]/40" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#050505]/20 via-[#0E3A5C]/10 to-[#050505]" />
+        {/* Subtle animated glow */}
+        <motion.div
+          animate={{ opacity: [0.04, 0.08, 0.04] }}
+          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#38BDF8] blur-[150px]"
+        />
+        {/* Twinkling stars overlay */}
+        <div className="hero-stars absolute inset-0" />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-12 sm:py-16">

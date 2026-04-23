@@ -10,6 +10,11 @@ import { Footer } from "@/components/footer";
 export default function Home() {
   return (
     <main className="relative noise-overlay overflow-x-hidden">
+      {/* Global subtle stars — above content, no interaction */}
+      <div className="fixed inset-0 pointer-events-none z-[40]" aria-hidden="true">
+        <div className="global-stars-1 absolute inset-0" />
+        <div className="global-stars-2 absolute inset-0" />
+      </div>
       <Navbar />
       <Hero />
       <MissionSection />

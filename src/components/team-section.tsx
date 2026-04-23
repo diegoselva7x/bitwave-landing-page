@@ -66,6 +66,7 @@ export function TeamSection() {
                     alt={member.name}
                     width={56}
                     height={56}
+                    loading="lazy"
                     className="rounded-full border border-white/10 mb-5 group-hover:border-[#38BDF8]/30 group-hover:scale-105 transition-all duration-300"
                   />
 
@@ -98,6 +99,7 @@ export function TeamSection() {
                     alt={member.name}
                     width={56}
                     height={56}
+                    loading="lazy"
                     className="rounded-full border border-white/10 mb-5 group-hover:border-[#38BDF8]/30 group-hover:scale-105 transition-all duration-300"
                   />
 

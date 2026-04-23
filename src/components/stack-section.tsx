@@ -59,7 +59,7 @@ const stackItems = [
 
 export function StackSection() {
   return (
-    <section id="stack" className="py-14 sm:py-16 relative">
+    <section id="stack" className="py-14 sm:py-16 relative overflow-hidden">
       {/* Glow */}
       <div className="absolute bottom-0 right-0 w-[500px] h-[400px] bg-[#2563EB]/[0.03] rounded-full blur-[100px] translate-x-1/3 translate-y-1/3 pointer-events-none" aria-hidden="true" />
 

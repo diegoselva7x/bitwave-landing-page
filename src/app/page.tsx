@@ -9,7 +9,7 @@ import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
-    <main className="relative noise-overlay">
+    <main className="relative noise-overlay overflow-x-hidden">
       <Navbar />
       <Hero />
       <MissionSection />

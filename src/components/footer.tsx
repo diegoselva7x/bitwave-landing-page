@@ -8,7 +8,7 @@ export function Footer() {
   return (
     <>
       {/* CTA */}
-      <section className="py-14 sm:py-16 relative">
+      <section className="py-14 sm:py-16 relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-[#38BDF8]/[0.04] rounded-full blur-[100px]" />
         </div>

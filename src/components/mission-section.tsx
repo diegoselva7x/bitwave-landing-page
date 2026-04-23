@@ -4,7 +4,7 @@ import { Reveal } from "./motion-wrapper";
 
 export function MissionSection() {
   return (
-    <section id="mision" className="py-14 sm:py-16 relative">
+    <section id="mision" className="py-14 sm:py-16 relative overflow-hidden">
       {/* Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#2563EB]/[0.04] rounded-full blur-[120px] pointer-events-none" aria-hidden="true" />
 

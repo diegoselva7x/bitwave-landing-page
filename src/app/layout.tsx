@@ -16,7 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "Bitwave — Equipo de Desarrollo",
-  description: "Equipo Bitwave — Universidad CENFOTEC. Desarrolladores del sistema AgroAdapt AI.",
+  description: "Equipo Bitwave — Desarrolladores del sistema AgroAdapt AI.",
 };
 
 export default function RootLayout({

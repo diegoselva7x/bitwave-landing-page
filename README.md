@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bitwave — Landing Page
 
-## Getting Started
+Landing page del equipo de desarrollo **Bitwave**. Construida con Next.js 16, TailwindCSS y Framer Motion.
 
-First, run the development server:
+## Tech Stack
+
+- **Next.js 16** — App Router, Server Components
+- **TypeScript**
+- **TailwindCSS v4** — Utility-first styling
+- **Framer Motion** — Scroll-triggered animations
+
+## Secciones
+
+- **Hero** — Presentacion del equipo
+- **Mision y Vision** — Proposito y objetivos de Bitwave
+- **Proyectos** — Showcase de AgroAdapt AI con feature cards
+- **Equipo** — Miembros con fotos y links de GitHub
+- **Valores** — Compromiso, Innovacion, Honestidad, Etica
+- **Tech Stack** — Tecnologias utilizadas con links
+- **Footer** — CTA a GitHub
+
+## Setup
 
 ```bash
+# Instalar dependencias
+npm install
+
+# Desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build de produccion
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir [http://localhost:3000](http://localhost:3000) para ver el sitio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Equipo Bitwave
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Nombre | Rol | GitHub |
+|--------|-----|--------|
+| Santiago Zeledon | Coordinador General | [@szmcr](https://github.com/szmcr) |
+| Diego Selva | Coordinador de Calidad | [@diegoselva7x](https://github.com/diegoselva7x) |
+| Andres Maradiaga | Coordinador de Soporte | [@AndresMaradiaga](https://github.com/AndresMaradiaga) |
+| Marlon Rojas | Coordinador de Desarrollo | [@Mrojasb2](https://github.com/Mrojasb2) |
+| Allan Rodriguez | Coordinador de Desarrollo | [@allroven](https://github.com/allroven) |

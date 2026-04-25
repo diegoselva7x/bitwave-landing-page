@@ -32,7 +32,6 @@ export function Navbar() {
       }`}
     >
       <div className="mx-auto px-3 sm:px-4 lg:px-6 h-[72px] flex items-center justify-between">
-        {/* Logo */}
         <a href="#" className="flex items-center gap-3 group">
           <img
             src={`${BASE}/images/bitwave-logo-white.png`}
@@ -46,7 +45,6 @@ export function Navbar() {
           </span>
         </a>
 
-        {/* Desktop links */}
         <div className="hidden md:flex items-center gap-1">
           {navLinks.map((link) => (
             <a
@@ -60,7 +58,6 @@ export function Navbar() {
           ))}
         </div>
 
-        {/* CTA */}
         <a
           href="https://github.com/AgroadapAI/AgroadaptAI-Frontend"
           target="_blank"
@@ -73,7 +70,6 @@ export function Navbar() {
           GitHub
         </a>
 
-        {/* Mobile hamburger */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-white/5 transition-colors cursor-pointer"

@@ -29,7 +29,6 @@ export function ValuesSection() {
   return (
     <section id="valores" className="py-14 sm:py-16 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <Reveal>
           <div className="mb-10">
             <span className="text-xs font-medium text-[#38BDF8] uppercase tracking-[0.2em] mb-4 block">
@@ -41,7 +40,6 @@ export function ValuesSection() {
           </div>
         </Reveal>
 
-        {/* Values list */}
         <StaggerContainer className="space-y-0" staggerDelay={0.1}>
           {values.map((value, i) => (
             <StaggerItem key={value.number}>

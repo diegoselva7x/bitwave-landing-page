@@ -7,7 +7,6 @@ const BASE = process.env.__NEXT_ROUTER_BASEPATH || "";
 export function Footer() {
   return (
     <>
-      {/* CTA */}
       <section className="py-14 sm:py-16 relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-[#38BDF8]/[0.04] rounded-full blur-[100px]" />
@@ -37,7 +36,6 @@ export function Footer() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="py-8 border-t border-white/[0.04]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <a href="#" className="flex items-center gap-3">

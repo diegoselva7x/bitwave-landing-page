@@ -33,11 +33,9 @@ const team = [
 export function TeamSection() {
   return (
     <section id="equipo" className="py-14 sm:py-16 relative overflow-hidden">
-      {/* Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#38BDF8]/[0.03] rounded-full blur-[120px] pointer-events-none" aria-hidden="true" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <Reveal>
           <div className="mb-10">
             <span className="text-xs font-medium text-[#38BDF8] uppercase tracking-[0.2em] mb-4 block">
@@ -53,14 +51,11 @@ export function TeamSection() {
           </div>
         </Reveal>
 
-        {/* Team grid: 3 top + 2 bottom centered */}
         <StaggerContainer className="flex flex-col items-center gap-4" staggerDelay={0.08}>
-          {/* First row: 3 cards */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
             {team.slice(0, 3).map((member) => (
               <StaggerItem key={member.name}>
                 <div className="group relative p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#38BDF8]/15 transition-all duration-300">
-                  {/* Avatar */}
                   <img
                     src={`https://github.com/${member.github}.png`}
                     alt={member.name}
@@ -88,12 +83,10 @@ export function TeamSection() {
             ))}
           </div>
 
-          {/* Second row: 2 cards centered */}
           <div className="grid sm:grid-cols-2 gap-4 w-full lg:max-w-[calc(66.666%+0.5rem)]">
             {team.slice(3, 5).map((member) => (
               <StaggerItem key={member.name}>
                 <div className="group relative p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.04] hover:border-[#38BDF8]/15 transition-all duration-300">
-                  {/* Avatar */}
                   <img
                     src={`https://github.com/${member.github}.png`}
                     alt={member.name}

@@ -8,7 +8,6 @@ const BASE = process.env.__NEXT_ROUTER_BASEPATH || "";
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-[72px]">
-      {/* Background image */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <motion.div
           initial={{ scale: 1.1 }}
@@ -22,23 +21,18 @@ export function Hero() {
             className="w-full h-full object-cover"
           />
         </motion.div>
-        {/* Cyan/teal tint to match sky feel */}
         <div className="absolute inset-0 bg-[#0C4A6E]/30 mix-blend-overlay" />
-        {/* Dark overlay + bottom fade */}
         <div className="absolute inset-0 bg-[#050505]/40" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#050505]/20 via-[#0E3A5C]/10 to-[#050505]" />
-        {/* Subtle animated glow */}
         <motion.div
           animate={{ opacity: [0.04, 0.08, 0.04] }}
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
           className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#38BDF8] blur-[150px]"
         />
-        {/* Twinkling stars overlay */}
         <div className="hero-stars absolute inset-0" />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-12 sm:py-16">
-        {/* Badge */}
         <Reveal delay={0}>
           <div className="mb-8 flex justify-center">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#38BDF8]/20 bg-[#38BDF8]/[0.08] text-xs font-medium text-[#38BDF8] tracking-wide uppercase">
@@ -48,7 +42,6 @@ export function Hero() {
           </div>
         </Reveal>
 
-        {/* Title */}
         <Reveal delay={0.1}>
           <h1 className="text-5xl sm:text-6xl lg:text-8xl font-black text-white leading-[0.95] tracking-tighter mb-6">
             Somos{" "}
@@ -63,7 +56,6 @@ export function Hero() {
           </p>
         </Reveal>
 
-        {/* CTAs */}
         <Reveal delay={0.3}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -84,7 +76,6 @@ export function Hero() {
           </div>
         </Reveal>
 
-        {/* Scroll indicator */}
         <Reveal delay={0.5}>
           <div className="mt-14 flex flex-col items-center gap-2">
             <span className="text-[10px] text-white/20 uppercase tracking-[0.2em]">Scroll</span>

@@ -60,11 +60,9 @@ const stackItems = [
 export function StackSection() {
   return (
     <section id="stack" className="py-14 sm:py-16 relative overflow-hidden">
-      {/* Glow */}
       <div className="absolute bottom-0 right-0 w-[500px] h-[400px] bg-[#2563EB]/[0.03] rounded-full blur-[100px] translate-x-1/3 translate-y-1/3 pointer-events-none" aria-hidden="true" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <Reveal>
           <div className="mb-10">
             <span className="text-xs font-medium text-[#38BDF8] uppercase tracking-[0.2em] mb-4 block">
@@ -79,7 +77,6 @@ export function StackSection() {
           </div>
         </Reveal>
 
-        {/* Stack grid */}
         <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" staggerDelay={0.08}>
           {stackItems.map((stack) => (
             <StaggerItem key={stack.category}>

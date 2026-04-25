@@ -47,7 +47,6 @@ export function ProjectSection() {
   return (
     <section id="proyecto" className="py-14 sm:py-16 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <Reveal>
           <div className="mb-10">
             <span className="text-xs font-medium text-[#38BDF8] uppercase tracking-[0.2em] mb-4 block">
@@ -63,7 +62,6 @@ export function ProjectSection() {
           </div>
         </Reveal>
 
-        {/* AgroAdapt AI showcase */}
         <Reveal delay={0.1}>
           <div className="mb-8 p-6 sm:p-8 rounded-2xl border border-[#38BDF8]/10 bg-gradient-to-br from-[#38BDF8]/[0.04] to-[#6366F1]/[0.02]">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-6">
@@ -84,7 +82,7 @@ export function ProjectSection() {
               </div>
             </div>
             <a
-              href="https://AgroadaptAI.com"
+              href="https://Localhost:4200"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 px-6 py-3 text-sm font-semibold text-[#050505] bg-[#38BDF8] rounded-xl hover:bg-[#0EA5E9] active:scale-[0.98] transition-all duration-200 cursor-pointer shadow-lg shadow-[#38BDF8]/20 hover:-translate-y-0.5"
@@ -100,7 +98,6 @@ export function ProjectSection() {
           </div>
         </Reveal>
 
-        {/* Feature grid */}
         <StaggerContainer className="grid sm:grid-cols-2 gap-4" staggerDelay={0.1}>
           {features.map((feature) => (
             <StaggerItem key={feature.title}>

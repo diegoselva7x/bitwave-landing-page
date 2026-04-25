@@ -12,6 +12,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Bitwave — Equipo de Desarrollo",
   description: "Equipo Bitwave — Desarrolladores del sistema AgroAdapt AI.",
+  icons: {
+    icon: "/bitwave-landing-page/images/bitwave-logo.png",
+  },
 };
 
 export default function RootLayout({

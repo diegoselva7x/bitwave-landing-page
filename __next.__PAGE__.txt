@@ -1,13 +1,13 @@
 1:"$Sreact.fragment"
-2:I[2874,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/0wve9zr.w-ezl.js"],"Navbar"]
-3:I[61564,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/0wve9zr.w-ezl.js"],"Hero"]
-4:I[32883,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/0wve9zr.w-ezl.js"],"MissionSection"]
-5:I[89589,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/0wve9zr.w-ezl.js"],"ProjectSection"]
-6:I[58712,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/0wve9zr.w-ezl.js"],"TeamSection"]
-7:I[51871,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/0wve9zr.w-ezl.js"],"ValuesSection"]
-8:I[93612,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/0wve9zr.w-ezl.js"],"StackSection"]
-9:I[54231,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/0wve9zr.w-ezl.js"],"Footer"]
+2:I[2874,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/07q3gqa6.p_h5.js"],"Navbar"]
+3:I[61564,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/07q3gqa6.p_h5.js"],"Hero"]
+4:I[32883,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/07q3gqa6.p_h5.js"],"MissionSection"]
+5:I[89589,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/07q3gqa6.p_h5.js"],"ProjectSection"]
+6:I[58712,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/07q3gqa6.p_h5.js"],"TeamSection"]
+7:I[51871,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/07q3gqa6.p_h5.js"],"ValuesSection"]
+8:I[93612,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/07q3gqa6.p_h5.js"],"StackSection"]
+9:I[54231,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js","/bitwave-landing-page/_next/static/chunks/07q3gqa6.p_h5.js"],"Footer"]
 a:I[97367,["/bitwave-landing-page/_next/static/chunks/0dbhjjzl8qfwv.js"],"OutletBoundary"]
 b:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"relative noise-overlay overflow-x-hidden","children":[["$","div",null,{"className":"fixed inset-0 pointer-events-none z-[40]","aria-hidden":"true","children":[["$","div",null,{"className":"global-stars-1 absolute inset-0"}],["$","div",null,{"className":"global-stars-2 absolute inset-0"}]]}],["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}],[["$","script","script-0",{"src":"/bitwave-landing-page/_next/static/chunks/0wve9zr.w-ezl.js","async":true}]],["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"t405s6ZXfCerSNLnOb1da"}
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"relative noise-overlay overflow-x-hidden","children":[["$","div",null,{"className":"fixed inset-0 pointer-events-none z-[40]","aria-hidden":"true","children":[["$","div",null,{"className":"global-stars-1 absolute inset-0"}],["$","div",null,{"className":"global-stars-2 absolute inset-0"}]]}],["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}],[["$","script","script-0",{"src":"/bitwave-landing-page/_next/static/chunks/07q3gqa6.p_h5.js","async":true}]],["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7isbPQZmfSnzLKDVTAB01"}
 c:null

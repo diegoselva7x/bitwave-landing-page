@@ -82,7 +82,7 @@ export function ProjectSection() {
               </div>
             </div>
             <a
-              href="https://Localhost:4200"
+              href="http://Localhost:4200"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 px-6 py-3 text-sm font-semibold text-[#050505] bg-[#38BDF8] rounded-xl hover:bg-[#0EA5E9] active:scale-[0.98] transition-all duration-200 cursor-pointer shadow-lg shadow-[#38BDF8]/20 hover:-translate-y-0.5"
